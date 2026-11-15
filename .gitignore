@@ -1,0 +1,36 @@
+# Virtual environment (8+ GB)
+venv/
+env/
+.venv/
+.env
+
+# Base model weights & checkpoints (13+ GB)
+OLMoE-1B-7B-0924/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Execution logs
+*.log
+logs/
+logs_code/
+
+# Duplicate tokenizer files generated in run folders (~150MB across 40+ runs)
+results/**/tokenizer.json
+results_code/**/tokenizer.json
+results/**/tokenizer_config.json
+results_code/**/tokenizer_config.json
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/

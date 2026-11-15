@@ -1,0 +1,14 @@
+{
+ "model": "results_code/random_eo_s2",
+ "dtype": "fp16",
+ "humaneval": {
+  "pass@1": 14.634146341463415,
+  "n": 164,
+  "seconds": 554.8699812889099
+ },
+ "mbpp": {
+  "pass@1": 24.90272373540856,
+  "n": 257,
+  "seconds": 812.693243265152
+ }
+}

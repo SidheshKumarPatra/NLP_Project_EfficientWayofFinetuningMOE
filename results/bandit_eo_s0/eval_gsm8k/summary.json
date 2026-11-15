@@ -1,0 +1,9 @@
+{
+ "model": "results/bandit_eo_s0",
+ "task": "gsm8k",
+ "n": 1319,
+ "accuracy": 26.15617892342684,
+ "dtype": "fp16",
+ "max_new_tokens": 512,
+ "seconds": 1888.317203760147
+}

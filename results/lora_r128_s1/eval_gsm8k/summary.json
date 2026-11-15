@@ -1,0 +1,9 @@
+{
+ "model": "results/lora_r128_s1",
+ "task": "gsm8k",
+ "n": 1319,
+ "accuracy": 33.131159969673995,
+ "dtype": "fp16",
+ "max_new_tokens": 512,
+ "seconds": 1727.8209986686707
+}

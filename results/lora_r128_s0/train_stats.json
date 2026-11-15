@@ -1,0 +1,30 @@
+{
+ "args": {
+  "model": "./OLMoE-1B-7B-0924",
+  "dataset": "meta-math/MetaMathQA-40K",
+  "data_files": "metamath40k.jsonl",
+  "query_field": "query",
+  "response_field": "response",
+  "max_samples": 10000,
+  "max_len": 768,
+  "rank": 128,
+  "alpha": null,
+  "targets": "attn",
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "epochs": 1,
+  "batch_size": 4,
+  "grad_accum": 1,
+  "dtype": "fp16",
+  "gc": false,
+  "no_aux": false,
+  "seed": 0,
+  "log_every": 50,
+  "output_dir": "results/lora_r128_s0",
+  "device": "cuda:0"
+ },
+ "trainable_params": 33554432,
+ "seconds": 2077.8284635543823,
+ "peak_gb": 24.642295360565186
+}

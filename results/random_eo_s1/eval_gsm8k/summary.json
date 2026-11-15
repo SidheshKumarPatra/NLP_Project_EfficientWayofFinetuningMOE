@@ -1,0 +1,9 @@
+{
+ "model": "results/random_eo_s1",
+ "task": "gsm8k",
+ "n": 1319,
+ "accuracy": 28.354814253222138,
+ "dtype": "fp16",
+ "max_new_tokens": 512,
+ "seconds": 1982.4450325965881
+}

@@ -1,0 +1,14 @@
+{
+ "model": "results_code/bandit10raw_s1",
+ "dtype": "fp16",
+ "humaneval": {
+  "pass@1": 15.853658536585366,
+  "n": 164,
+  "seconds": 505.745525598526
+ },
+ "mbpp": {
+  "pass@1": 25.68093385214008,
+  "n": 257,
+  "seconds": 645.5668749809265
+ }
+}

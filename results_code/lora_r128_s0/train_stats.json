@@ -1,0 +1,32 @@
+{
+ "args": {
+  "model": "./OLMoE-1B-7B-0924",
+  "dataset": "ise-uiuc/Magicoder-OSS-Instruct-75K",
+  "data_files": null,
+  "query_field": "problem",
+  "response_field": "solution",
+  "max_samples": 10000,
+  "filter_field": "lang",
+  "filter_value": "python",
+  "max_len": 768,
+  "rank": 128,
+  "alpha": null,
+  "targets": "attn",
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "epochs": 1,
+  "batch_size": 4,
+  "grad_accum": 1,
+  "dtype": "fp16",
+  "gc": false,
+  "no_aux": false,
+  "seed": 0,
+  "log_every": 50,
+  "output_dir": "results_code/lora_r128_s0",
+  "device": "cuda:0"
+ },
+ "trainable_params": 33554432,
+ "seconds": 9084.18527340889,
+ "peak_gb": 24.68981170654297
+}

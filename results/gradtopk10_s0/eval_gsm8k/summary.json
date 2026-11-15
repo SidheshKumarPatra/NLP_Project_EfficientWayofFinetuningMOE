@@ -1,0 +1,9 @@
+{
+ "model": "results/gradtopk10_s0",
+ "task": "gsm8k",
+ "n": 1319,
+ "accuracy": 33.206974981046244,
+ "dtype": "fp16",
+ "max_new_tokens": 512,
+ "seconds": 1642.043640613556
+}
